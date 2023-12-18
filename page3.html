@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--<a href="https://youtube.com" target="_blank" title="just click meeeee">-->
+
+    <button onclick="change_word()" onclick="another_word()" background-color: blanchedalmond;border-radius: 5px;">Secret button</button>
+    
+    <p id="test">Hello</p>
+
+    <script>
+        function change_word(){
+            document.getElementById("test").innerHTML = "goodbye"
+        }
+    </script>
+
+    <script>
+        function another_word(){
+            document.getElementById("test").innerHTML = "welcome back!"
+        }
+    </script>
+
+    <form action="action_page.php" method="post">
+        <div>
+            <label for="first_name">first name:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Johan" required>
+        </div>
+        <br>
+        <div>
+            <label for="last_name">last name:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Antony"required>
+        </div>
+        <br>
+        
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="pass" name="pass"required>
+        </div>
+        
+        
+        
+        
+        <div>
+            <input type="reset">
+        </div>
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    <div class="pagination">
+        <a href="index.html">Home</a>
+        <a href="page1.html">1</a>
+        <a href="page2.html">2</a>
+        <a href="page3.html">3</a>
+        
+    </div>
+
+</body>
+</html>

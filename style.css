@@ -1,0 +1,83 @@
+body{
+    background-image: url(/images/clouds.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+    margin: 0px;   
+}
+#title{
+   
+    
+    font-family: "consolos", "sans-serif";
+
+    border-style: inset;
+    border-width: 3px;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: rgb(0, 0, 0);
+    background: linear-gradient(to right, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    text-shadow: 3px 3px 10px;
+}
+#p1{
+    color:beige
+}
+.odd{
+    
+    font-family: "consolos";
+    font-style: italic;
+    text-decoration: underline;
+    border-left-color: rgb(0, 0, 0);
+    background: linear-gradient(to right, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.even{
+
+    font-family: "cursive", "consolos";
+    font-style: italic;
+    border-left-color: rgb(0, 0, 0);
+    background: linear-gradient(to right, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-decoration: underline;
+}
+
+p{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#box1{
+    border: 2px solid;
+    width: 600px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+    box-shadow: 3px 3px 5px;
+}
+#box2{
+    border: 2px solid;
+    width: 600px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+    box-shadow: 3px 3px 5px;
+    
+}
+
+img{
+    float: middle;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    margin-left: 100px;
+}

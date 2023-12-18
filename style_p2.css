@@ -1,0 +1,185 @@
+/*This is Page 2*/
+
+
+
+
+body{
+    background-image: url(/images/forest_backround_page2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+    margin: 0px;   
+    
+    /*border-color: burlywood;
+    display: flow-root;*/
+}
+
+
+#p2{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 3px;
+    color: antiquewhite;
+    border-color: rgb(26, 46, 65);
+}
+
+
+#p1{
+    color: aliceblue;
+}
+
+
+
+#box1{
+    border: 2px solid;
+    width: 600px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+    box-shadow: 3px 3px 5px;
+}
+#box2{
+    border: 2px solid;
+    width: 600px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+    
+}
+
+img{
+    float: middle;
+}
+
+.box{
+    width: 250px;
+    height: 200px;
+    border: 2px solid;
+    color: antiquewhite;
+    border-color: darkslategray;
+    overflow: auto;
+    text-align: center;
+}
+#table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#tree1_image{
+    float: right;
+    margin-right: 50px;
+    height: 300px;
+}
+
+#c{
+    color: aliceblue;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+#b{
+    color: antiquewhite;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline;
+
+}
+
+
+
+a:active{
+    color: rgb(18, 59, 59);
+}
+
+
+
+
+#adv{
+    
+    margin-left: 500px;
+    height: 200px;
+}
+p::selection{
+    color: darkslategray;
+}
+
+
+
+
+
+
+.pagination{
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    margin-left: 50%;
+    margin-right: 50%;
+    
+}
+
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 18px 15px;
+    display: inline-block;
+    position: relative;
+    
+    
+    
+    
+}
+.pagination a:hover{
+    font-size: 1.3em;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    background-color: rgba(240, 248, 255, 0.116);
+    border-style: solid;
+    
+    
+}
+
+.pagination a.active{
+    border-color: black;
+    background-color:rgba(47, 79, 79, 0.678);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.dropdown button{
+    background-color:rgb(13, 136, 89);
+    color: white;
+    cursor: pointer;
+    border: 2px;
+    padding: 2px 2px;
+    position: relative;
+    bottom: 100px;
+    
+    
+}
+
+.dropdown a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+}
+
+.dropdown .content{
+    position:absolute;
+    background-color: rgba(4, 66, 10, 0.342);
+    box-shadow: 10px 10px 10px black;
+    display: none;
+}
+.dropdown:hover .content{
+    display: block;
+    position: absolute;
+    
+}
